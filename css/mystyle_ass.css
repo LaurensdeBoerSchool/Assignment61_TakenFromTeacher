@@ -1,0 +1,146 @@
+/* reset all */ 
+*
+    {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    }
+body
+    {
+        width: 800px;
+        margin: auto;
+    }
+img 
+    {
+        width: 100px;
+    }
+
+/* MAIN MENU */
+#mainmenu
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+#mainmenu > a
+    {
+        flex-basis: 20%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        height: 100%;
+    }
+#mainmenu > a > img
+    {
+        display: block;
+        margin: auto;
+        height: 100%;
+    }
+#mainmenu > ul
+    {
+        flex-basis: 60%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        line-height: 7em;
+        text-align: center;
+    }
+#mainmenu > ul > li
+    {
+        display: inline;
+    }
+#mainmenu > form
+    {
+        flex-basis: 20%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        line-height: 7em;
+    }
+#mainmenu > form > h3
+    {
+        text-align: center;
+    }
+
+/* COMPANY PAYOFF */
+#company_payoff
+    {
+    clear: both;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    }
+
+#company_payoff > h1, #company_payoff > h2
+    {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+/* MAIN content */
+main
+    {
+        clear: both;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+main > .main_article
+    {
+        flex-basis: 50%;
+        flex-shrink: 0;
+        flex-grow: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+#flex_articles /* a > img moet niet bij de flex horen */
+    {
+        flex-basis: 100%;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+/* Company footer */
+#company_footer
+    {
+        clear: both;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+#company_footer_section_1
+    {
+        flex-basis: 30%;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+#company_footer_section_2
+    {
+        flex-basis: 70%;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+#company_footer_section_2 > aside
+    {
+        flex-basis: 30%;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+#company_footer_section_2 > article
+    {
+        flex-basis: 30%;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+#company_footer_section_2 > section
+    {
+        width: 30%;
+        float: left;
+    }
+
+#company_footer_section_2 > section > a > img
+    {
+        width: 20%;
+        margin: 5%;
+    }
